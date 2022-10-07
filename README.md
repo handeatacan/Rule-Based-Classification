@@ -9,10 +9,14 @@ Dataset Information:
 
 Persona Dataset: It contains the prices of the products sold by an international game company and some demographic information of the users who buy these products. The data set consists of records created in each sales transaction. This means that the table is not deduplicated. In other words, a user with certain demographic characteristics may have made more than one purchase.
 
-Variables
+Variables:
 
-Price: Amount of customer spend.
-Source: The type of device that the customer's operating system.
-Sex: Customer's gender.
-Country: Country name. Customer's country
+Price: Amount of customer spend
+
+Source: The type of device that the customer's operating system
+
+Sex: Customer's gender
+
+Country: Customer's country
+
 Age: Customer's age
