@@ -1,22 +1,27 @@
 # Rule-Based-Classification
-Calculation of Potential Customer Earnings with Rule-Based Classification
+Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
 
-Business Problem:
+İş Problemi:
 
-A game company wants to create level-based new customer definitions (personas) by using some features of its customers and to create segments according to these new customer definitions, and this company wants to estimate how much the new customers can be earned on averagely according to these segments.
+Bir oyun şirketi müşterilerinin bazı özelliklerini kullanarak seviye tabanlı (level based) yeni müşteri tanımları
+(persona) oluşturmak ve bu yeni müşteri tanımlarına göre segmentler oluşturup bu segmentlere göre yeni
+gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir.
 
-Dataset Information:
+Veri Seti Bilgisi:
 
-Persona Dataset: It contains the prices of the products sold by an international game company and some demographic information of the users who buy these products. The data set consists of records created in each sales transaction. This means that the table is not deduplicated. In other words, a user with certain demographic characteristics may have made more than one purchase.
+Persona.csv veri seti uluslararası bir oyun şirketinin sattığı ürünlerin fiyatlarını
+ve bu ürünleri satın alan kullanıcıların bazı demografik bilgilerini barındırmaktadır.
+Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir.
+Diğer bir ifade ile belirli demografik özelliklere sahip bir kullanıcı birden fazla alışveriş yapmış olabilir.
 
-Variables:
+Değişkenler:
 
-Price: Amount of customer spend
+Price: Müşterinin harcama tutarı
 
-Source: The type of device that the customer's operating system
+Source: Müşterinin bağlandığı cihaz türü
 
-Sex: Customer's gender
+Sex: Müşterinin cinsiyeti
 
-Country: Customer's country
+Country: Müşterinin ülkesi
 
-Age: Customer's age
+Age: Müşterinin yaşı
